@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    height: 70vh;
+    background-image: url("bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px , 100vw);
+    position: relative;
+}
+.main .box{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.70;
+    position: absolute;
+    top:0;
+}
+.navbar{
+    max-width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+   padding: 20px;
+}
+.logo img{
+    position: relative;
+    z-index: 10;
+}
+.main .navbar .buttons{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: "Martel Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+    height: calc(100% - 84px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    /* gap: 23px; */
+    padding: 0 30px;
+
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.hero> :first-child{
+    font-weight: 700;
+    font-size: 56px;
+    margin: 0px 0px 16px;
+    text-align: center;
+
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0px 0px 32px;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.sepration{
+    height: 7px;
+    background-color: rgb(34, 34, 34);
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: rgba(67, 62, 62, 0);
+    cursor: pointer;
+
+}
+.btn-red-sm{
+background-color: red;
+color: white;
+}
+.main input{
+    padding: 7px 101px 8px 14px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    color: white;
+    /* background-color: transparent; */
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid rgba(233, 224, 224, 0.5);
+}
+.btn-red{
+    font-weight: 400;
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
